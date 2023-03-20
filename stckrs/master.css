@@ -1,0 +1,115 @@
+.card {
+	cursor: pointer;
+	display: inline-block;
+	width: 20vw;
+	height: 20vw;
+	margin: 0 2vw 0 2vw;
+	border: solid 7px;
+}
+
+.card:hover {
+	border: 7px solid #D90429;
+}
+
+.cardimg {
+	transition: transform 0.6s;
+	animation-delay: 1s;
+	backface-visibility: visible;
+	-moz-backface-visibility: hidden;
+	width: 70%;
+	height: 70%;
+	margin: 15% 15% 15% 15%;
+}
+
+.cardimg:hover {
+  transform: rotateY(180deg);
+}
+
+
+.row {
+	margin: auto;
+	display: flex;
+	width: 70vw;
+	height: 25vw;
+}
+
+.productimage {
+	display: inline-block;
+	width: 40vw;
+	height: 40vw;
+	margin: 0 2vw 0 2vw;
+	border: solid 6px;
+}
+
+.producttext {
+	display: inline-block;
+	width: 50vw;
+	height: 40vw;
+	color: #2B2D42;
+ 	vertical-align:top;
+
+	-webkit-touch-callout: text;
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+
+root {
+	font-size: 14px;
+}
+
+p {
+	font-size: 14px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+
+::-moz-selection {
+	color: #2B2D42;
+	background: #EF233C;
+}
+
+::selection {
+	color: #2B2D42;
+	background: #EF233C;
+}
+
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin: 0;
+}
+
+.footer {
+	background-color: #2B2D42;
+	color: #EDF2F4;
+	padding: 20px;
+
+}
+
+
+.header {
+	background-color: #EF233C;
+	color: #2B2D42;
+	padding: 20px;
+
+}
+
+a, a:hover, a:focus, a:active .h1{
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: solid underline #EF233C 3px;
+}
+
+a:active {
+	text-decoration: solid underline #D90429 3px;
+}
